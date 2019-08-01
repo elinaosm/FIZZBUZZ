@@ -5,174 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FizzBuzz</title>
-    <script type="text/javascrip" src="main.js" defer></script>
+    <script src="main.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main id="container">
-        <div id="valueBox">
-            <h3>Start value :</h3>
-            <input id="startValue" type="number" value="1">
-            <h3>End value :</h3>
-            <input id="endValue" type="number" value="100">
-            <h3>Fizz value :</h3>
-            <input id="fizzValue" type="number" value="3">
-            <h3>Buzz value :</h3>
-            <input id="buzzValue" type="number" value="5">
-        </div>
-        <div id="menuBox">
-            <button type="submit" id="generate">Generate Numbers</button>
-            <br>
-            <button type="submit" id="clear">Clear Numbers</button>
-            <br>
-            <button type="submit" id="custom">Custom Numbers</button>
-            <br>
-        </div>
-        <div id="elements">
-            <div id="element1" class="Empty">1</div>
-            <div id="element2" class="Empty">2</div>
-            <div id="element3" class="Fizz">Fizz 3</div>
-            <div id="element4" class="Empty">4</div>
-            <div id="element5" class="Buzz">Buzz 5</div>
-            <div id="element6" class="Fizz">Fizz 6</div>
-            <div id="element7" class="Empty">7</div>
-            <div id="element8" class="Empty">8</div>
-            <div id="element9" class="Fizz">Fizz 9</div>
-            <div id="element10" class="Buzz">Buzz 10</div>
-            <div id="element11" class="Empty">11</div>
-            <div id="element12" class="Fizz">Fizz 12</div>
-            <div id="element13" class="Empty">13</div>
-            <div id="element14" class="Empty">14</div>
-            <div id="element15" class="FizzBuzz">FizzBuzz 15</div>
-            <div id="element16" class="Empty">16</div>
-            <div id="element17" class="Empty">17</div>
-            <div id="element18" class="Fizz">Fizz 18</div>
-            <div id="element19" class="Empty">19</div>
-            <div id="element20" class="Buzz">Buzz 20</div>
-            <div id="element21" class="Fizz">Fizz 21</div>
-            <div id="element22" class="Empty">22</div>
-            <div id="element23" class="Empty">23</div>
-            <div id="element24" class="Fizz">Fizz 24</div>
-            <div id="element25" class="Buzz">Buzz 25</div>
-            <div id="element26" class="Empty">26</div>
-            <div id="element27" class="Fizz">Fizz 26</div>
-            <div id="element28" class="Empty">28</div>
-            <div id="element29" class="Empty">29</div>
-            <div id="element30" class="FizzBuzz">FizzBuzz 30</div>
-            <div id="element31" class="Empty">31</div>
-            <div id="element32" class="Empty">32</div>
-            <div id="element33" class="Fizz">Fizz 33</div>
-            <div id="element34" class="Empty">34</div>
-            <div id="element35" class="Buzz">Buzz 35</div>
-            <div id="element36" class="Fizz">Fizz 36</div>
-            <div id="element37" class="Empty">37</div>
-            <div id="element38" class="Empty">38</div>
-            <div id="element39" class="Fizz">Fizz 39</div>
-            <div id="element40" class="Buzz">Buzz 40</div>
-            <div id="element41" class="Empty">41</div>
-            <div id="element42" class="Fizz">Fizz 42</div>
-            <div id="element43" class="Empty">43</div>
-            <div id="element44" class="Empty">44</div>
-            <div id="element45" class="FizzBuzz">FizzBuzz45</div>
-            <div id="element46" class="Empty">46</div>
-            <div id="element47" class="Empty">47</div>
-            <div id="element48" class="Fizz">Fizz 48</div>
-            <div id="element49" class="Empty">49</div>
-            <div id="element50" class="Buzz">Buzz 50</div>
-            <div id="element51" class="Fizz">Fizz 51</div>
-            <div id="element52" class="Empty">52</div>
-            <div id="element53" class="Empty">53</div>
-            <div id="element54" class="Fizz">Fizz 54</div>
-            <div id="element55" class="Buzz">Buzz 55</div>
-            <div id="element56" class="Empty">56</div>
-            <div id="element57" class="Fizz">Fizz 57</div>
-            <div id="element58" class="Empty">58</div>
-            <div id="element59" class="Empty">59</div>
-            <div id="element60" class="FizzBuzz">FizzBuzz 60</div>
-            <div id="element61" class="Empty">61</div>
-            <div id="element62" class="Empty">62</div>
-            <div id="element63" class="Fizz">Fizz 63</div>
-            <div id="element64" class="Empty">64</div>
-            <div id="element65" class="Buzz">Buzz 65</div>
-            <div id="element66" class="Fizz">Fizz 66</div>
-            <div id="element67" class="Empty">67</div>
-            <div id="element68" class="Empty">68</div>
-            <div id="element69" class="Fizz">Fizz 69</div>
-            <div id="element70" class="Buzz">Buzz 70</div>
-            <div id="element71" class="Empty">71</div>
-            <div id="element72" class="Fizz">Fizz 72</div>
-            <div id="element73" class="Empty">73</div>
-            <div id="element74" class="Empty">74</div>
-            <div id="element75" class="FizzBuzz">FizzBuzz 75</div>
-            <div id="element76" class="Empty">76</div>
-            <div id="element77" class="Empty">77</div>
-            <div id="element78" class="Fizz">Fizz 78</div>
-            <div id="element79" class="Empty">79</div>
-            <div id="element80" class="Buzz">Buzz 80</div>
-            <div id="element81" class="Fizz">Fizz 81</div>
-            <div id="element82" class="Empty">82</div>
-            <div id="element83" class="Empty">83</div>
-            <div id="element84" class="Fizz">Fizz 84</div>
-            <div id="element85" class="Buzz">Buzz 85</div>
-            <div id="element86" class="Empty">86</div>
-            <div id="element87" class="Fizz">Fizz 87</div>
-            <div id="element88" class="Empty">88</div>
-            <div id="element89" class="Empty">89</div>
-            <div id="element90" class="FizzBuzz">FizzBuzz 90</div>
-            <div id="element91" class="Empty">91</div>
-            <div id="element92" class="Empty">92</div>
-            <div id="element93" class="Fizz">Fiz 93</div>
-            <div id="element94" class="Empty">94</div>
-            <div id="element95" class="Buzz">Buzz 95</div>
-            <div id="element96" class="Fizz">Fizz 96</div>
-            <div id="element97" class="Empty">97</div>
-            <div id="element98" class="Empty">98</div>
-            <div id="element99" class="Fizz">Fizz 99</div>
-            <div id="element100" class="Buzz">Buzz 100</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-      
-    
-     
-
-
+        <h1>FIZZBUZZ</h1>
+            <div id="valueBox">
+                <h3>MIN:</h3><input id="min" type="number" value="1">
+                <h3>MAX:</h3><input id="max" type="number" value="100">
+                <h3>FIZZ:</h3><input id="fizz" type="number" value="3">
+                <h3>BUZZ:</h3><input id="buzz" type="number" value="5">
+            </div>
+            <div id="menuBox">
+                <button type="submit" id="generateA">GENERATE ALL</button><br>
+                <button type="submit" id="refresh">REFRESH</button><br>
+                <button type="submit" id="generateC">GENERATE CUSTOM</button><br>
+            </div>
+            <div id ="elements"></div>
+  
     </main>
-</body>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
