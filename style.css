@@ -30,6 +30,7 @@ body {
     border-style: solid;
     border-color: goldenrod;
     text-align: center;
+    
 }
 
 .Fizz {
@@ -79,7 +80,7 @@ body {
     padding-bottom: 10px;
 }
 
-   #elWidth {
+#elWidth {
     width: 15px;
     height: 15px;
     border-radius: 5px;  
@@ -104,17 +105,17 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border-color: olive;
-
 }
+
 h1 {
     display: grid;
     text-align: center;
     font-size: 60px;
-
 }
+
 h3 {
     display: inline;
-    padding-left: 60px;
+    padding-left: 120px;
     font-size: 20px;
     font-weight: 100;
     font-family: 'Concert One', cursive;
@@ -159,25 +160,35 @@ h3 {
     background-color: whitesmoke;
 }
 
+input[type=number]{
+    width: 100px;
+}
+
 @media (max-width: 992px) {
     #container {
-        width: 500px;
+        width: 520px;
         height: 100%;
         margin : 0 auto;
         background-color: white;
     }
     #elements {
-    display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-  grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . .";
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+        grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . .";
     }
 
-    input[type=number]{
-        width: 60px;
+    input[type=number] {
+        width: 100px;
     }
 
-
+    h3 {
+        display: inline;
+        padding-left: 60px;
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Concert One', cursive;
+    }
 
 
 @media (max-width: 576px) {
@@ -192,9 +203,8 @@ h3 {
         display: inline;
     }
 
-    input[type=number]{
+    input[type=number] {
         width: 30px;
     }
-
 }
 }
