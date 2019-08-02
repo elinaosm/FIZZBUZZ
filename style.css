@@ -1,0 +1,200 @@
+body {
+    font-family: 'Concert One', cursive;
+    font-weight: bolder;
+    background-color: white;
+}
+
+#container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#elements {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px;
+    grid-template-areas: ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . .";
+}
+
+.FizzBuzz {
+    display: grid;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    color:black;
+    font-size: 20px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: goldenrod;
+    text-align: center;
+}
+
+.Fizz {
+    display: grid;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    color:black;
+    font-size: 20px;
+    background-color:gold;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:gold;
+    text-align: center;
+}
+
+.Buzz {
+    display: grid;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    background-color: silver;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:silver;
+    text-align: center;
+}
+
+.Empty {
+    display: grid;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    background-color: olivedrab;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: olivedrab;
+    text-align: center;
+}
+
+#sizeBox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+   #elWidth {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;  
+    outline: none; 
+}
+
+#elHeight {
+   width: 45%;
+    height: 15px;
+    border-radius: 5px;  
+    outline: none; 
+}
+
+#menuBox {
+    display: grid;
+    background-color: white;
+    border-color: olive;
+}
+
+#valueBox {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: olive;
+
+}
+h1 {
+    display: grid;
+    text-align: center;
+    font-size: 60px;
+
+}
+h3 {
+    display: inline;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Concert One', cursive;
+}
+
+#generateA {
+    padding: 3px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#refresh {
+    padding: 3px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#generateC {
+    padding: 3px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#generateA:hover {
+    background-color: whitesmoke;
+}
+
+#refresh:hover {
+    background-color: whitesmoke;
+}
+
+#generateC:hover {
+    background-color: whitesmoke;
+}
+
+@media (max-width: 992px) {
+    #container {
+        width: 500px;
+        height: 100%;
+        margin : 0 auto;
+        background-color: white;
+    }
+    #elements {
+    display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . .";
+    }
+
+    input[type=number]{
+        width: 60px;
+    }
+
+
+
+
+@media (max-width: 576px) {
+    #container {
+        width: 300px;
+        height: 100%;
+        margin : 0 auto;
+        background-color: white;
+    }
+
+    #elements {
+        display: inline;
+    }
+
+    input[type=number]{
+        width: 30px;
+    }
+
+}
+}
