@@ -1,7 +1,7 @@
 
 console.log('Script started');
 
-function innit () {
+function init () {
     console.log('Adding listeners')
     addListeners();
     document.getElementById('elements');
@@ -106,4 +106,4 @@ function onClickCustom (){
 }
 
 
-innit();
+init();
