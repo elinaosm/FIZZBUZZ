@@ -30,7 +30,16 @@ body {
     border-style: solid;
     border-color: goldenrod;
     text-align: center;
-    
+    animation: color-me-in-fz 10s;
+}
+
+@keyframes color-me-in-fz {
+    0% {
+        background: white;
+    }
+    100% {
+        background: goldenrod;
+    }
 }
 
 .Fizz {
@@ -45,6 +54,16 @@ body {
     border-style: solid;
     border-color:gold;
     text-align: center;
+    animation: color-me-in-f 10s;
+}
+
+@keyframes color-me-in-f {
+    0% {
+        background: white;
+    }
+    100% {
+        background: gold;
+    }
 }
 
 .Buzz {
@@ -59,6 +78,16 @@ body {
     border-style: solid;
     border-color:silver;
     text-align: center;
+    animation: color-me-in-b 10s;
+}
+
+@keyframes color-me-in-b {
+    0% {
+        background: white;
+    }
+    100% {
+        background: silver;
+    }
 }
 
 .Empty {
@@ -73,6 +102,16 @@ body {
     border-style: solid;
     border-color: olivedrab;
     text-align: center;
+    animation: color-me-in-e 10s;
+}
+
+@keyframes color-me-in-e {
+    0% {
+        background: white;
+    }
+    100% {
+        background: olivedrab;
+    }
 }
 
 #sizeBox {
