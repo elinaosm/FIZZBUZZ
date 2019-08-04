@@ -129,6 +129,7 @@ h3 {
     color: black;
     font-weight: bold;
     transition: 0.2s;
+    letter-spacing: 2px;
 }
 
 #refresh {
@@ -137,6 +138,7 @@ h3 {
     border-radius: 5px;
     color: black;
     font-weight: bold;
+    letter-spacing: 2px;
     transition: 0.2s;
 }
 
@@ -147,6 +149,7 @@ h3 {
     color: black;
     font-weight: bold;
     transition: 0.2s;
+    letter-spacing: 2px;
 }
 
 #generateA:hover {
