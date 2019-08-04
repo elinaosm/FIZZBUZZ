@@ -111,6 +111,7 @@ h1 {
     display: grid;
     text-align: center;
     font-size: 60px;
+    letter-spacing: 10px;
 }
 
 h3 {
